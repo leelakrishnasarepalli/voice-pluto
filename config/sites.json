@@ -1,0 +1,20 @@
+{
+  "allowed_sites": [
+    {
+      "name": "anthropic learn",
+      "url": "https://www.anthropic.com/learn"
+    },
+    {
+      "name": "openai announcements",
+      "url": "https://openai.com/news/company-announcements/"
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ]
+}

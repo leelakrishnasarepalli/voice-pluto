@@ -1,0 +1,38 @@
+{
+  "workflows": [
+    {
+      "name": "research",
+      "description": "Open approved research pages and create a notes scaffold.",
+      "aliases": [
+        "research"
+      ],
+      "steps": [
+        {
+          "label": "Collect research digest",
+          "intent": "collect_research",
+          "limit_per_source": 2,
+          "open_sources": true,
+          "read_aloud": true,
+          "read_mode": "briefing",
+          "sources": [
+            {
+              "name": "Hacker News",
+              "kind": "hacker_news",
+              "url": "https://news.ycombinator.com/"
+            },
+            {
+              "name": "OpenAI announcements",
+              "kind": "openai_news",
+              "url": "https://openai.com/news/company-announcements/"
+            },
+            {
+              "name": "Anthropic Learn",
+              "kind": "anthropic_learn",
+              "url": "https://www.anthropic.com/learn"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

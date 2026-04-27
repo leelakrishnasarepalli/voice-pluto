@@ -1,0 +1,11 @@
+openwakeword
+faster-whisper
+sounddevice
+pyaudio
+pyobjc-core
+pyobjc-framework-Cocoa
+pyobjc-framework-EventKit
+pydantic
+python-dotenv
+openai
+beautifulsoup4
