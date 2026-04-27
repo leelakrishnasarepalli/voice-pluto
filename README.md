@@ -2,6 +2,10 @@
 
 Local-first macOS voice assistant MVP that runs entirely on your iMac.
 
+https://youtu.be/zM6rOqM2cQg
+
+[![Plulto CLI Demo](https://github.com/user-attachments/assets/44d9cec2-98f7-498b-9f7f-86fe7417f25b)](https://youtu.be/zM6rOqM2cQg)
+
 ## Hard Constraints (Implemented)
 
 - Wake word: `openwakeword` only
